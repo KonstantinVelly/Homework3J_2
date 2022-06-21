@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         double m = 101;
         double h = 1.84;
-        double BMIndex = service.calculate(m, h);
-        System.out.printf("Ваш индекс массы тела:" + "%.2f", BMIndex);
+        double bodyIndex = service.calculate(m, h);
+        System.out.printf("Ваш индекс массы тела:" + "%.2f", bodyIndex);
     }
 }
